@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+//
+//@interface ViewController ()
+//
+//@property(nonatomic,copy)NSString *userLevel;
+//
+//@end
+
+
 @interface ViewController : UIViewController
 
 

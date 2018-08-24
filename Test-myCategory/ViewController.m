@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "User.h"
+#import "User+userAdvIdentify.h"
 
 @interface ViewController ()
+@property(nonatomic,copy)NSString *userLevel;
 
 @end
 
@@ -16,8 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    
+    User *user=[User initWithName:@"李四" age:18 ads:@"北京市海淀区牡丹园"];
+    user.advIdentify=@"567879809";
+    
+
 }
+
 
 
 - (void)didReceiveMemoryWarning {
